@@ -106,7 +106,7 @@ body[dir="rtl"] .freebirdFormviewerViewFeedbackSubmitFeedbackButton {
     padding: 34px 17px
 }
 .freebirdFormviewerViewFormContent>div {
-    padding: 0 17px
+    padding: 17px 0px
 }
 .freebirdFormviewerViewFormContent>.freebirdFormviewerViewItemList {
     padding: 0
@@ -139,7 +139,7 @@ body[dir="rtl"] .freebirdFormviewerViewFeedbackSubmitFeedbackButton {
 }
 @media (max-width: 660px) {
     .freebirdFormviewerViewCenteredContent {
-        width: 90%
+        width: 100%
     }
     .freebirdFormviewerViewFormCard:first-of-type {
         margin-top: 0px
@@ -149,7 +149,8 @@ body[dir="rtl"] .freebirdFormviewerViewFeedbackSubmitFeedbackButton {
     }
 }
 .freebirdFormviewerViewHeaderHeader {
-    margin-bottom: 22px
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 .freebirdFormviewerViewHeaderTitleRow {
     -webkit-box-align: center;
@@ -432,7 +433,9 @@ div.freebirdFormviewerViewItemsDateDateInput {
     background-color: #fff
 }
 .freebirdFormviewerViewItemsItemChoiceCorrectnessIcon>* {
+
 }
+
 .freebirdFormviewerViewItemsGridContainer {
     overflow: hidden;
     position: relative;
@@ -7392,7 +7395,7 @@ body[dir="ltr"] .freebirdFormeditorViewMediaLoadingMessage {
     flex-wrap: wrap;
     box-pack: justify;
     -webkit-justify-content: space-between;
-    justify-content: space-between
+    justify-content: space-between;
 }
 @media (max-width: 660px) {
     .freebirdFormviewerViewNavigationProgress {
