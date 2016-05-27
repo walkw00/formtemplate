@@ -78,7 +78,12 @@ body[dir="rtl"] .freebirdFormviewerViewFeedbackSubmitFeedbackButton {
     -webkit-box-orient: vertical;
     box-orient: vertical;
     -webkit-flex-direction: column;
-    flex-direction: column
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
 .freebirdFormviewerViewCenteredContent {
     margin: auto;
@@ -706,7 +711,8 @@ div.freebirdFormviewerViewItemsDateDateInput {
     font-size: 12px
 }
 div.freebirdFormviewerViewItemsTimeInput {
-    width: 20px
+    width: 20px;
+
 }
 .freebirdFormviewerViewItemsTimeInput input::-webkit-outer-spin-button,
 .freebirdFormviewerViewItemsTimeInput input::-webkit-inner-spin-button {
