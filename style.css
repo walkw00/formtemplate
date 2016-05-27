@@ -1,5 +1,5 @@
 body {
-    background-color: #ede7f6;
+    background-color: #ffffff;
     font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
     margin: 0;
 }
@@ -325,7 +325,7 @@ div.freebirdFormviewerViewItemsDateDateInput {
 .freebirdFormviewerViewItemsItemItem {
     background-color: transparent;
     margin-top: 2px;
-    padding: 16px 17px;
+    padding: px ;
     -webkit-transition: background-color 200ms cubic-bezier(0.0, 0.0, 0.2, 1);
     transition: background-color 200ms cubic-bezier(0.0, 0.0, 0.2, 1)
 }
@@ -626,7 +626,7 @@ div.freebirdFormviewerViewItemsDateDateInput {
     width: 100%
 }
 .freebirdFormviewerViewItemsTextTextItem .freebirdFormviewerViewItemsTextShortText {
-    width: 50%
+    width: 100%
 }
 .freebirdFormviewerViewItemsTextTextItem .freebirdFormviewerViewItemsTextShortText.freebirdFormviewerViewItemsTextNumber {
     width: 8em
@@ -8653,4 +8653,14 @@ body[dir="ltr"] .freebirdFormeditorViewMediaLoadingMessage {
 
 
 #input-form {
+}
+
+#input-reps {
+    font-size: 1.5em;
+    border: none;
+}
+
+#input-number {
+    font-size: 1.5em;
+    border: none;
 }
