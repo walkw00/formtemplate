@@ -106,7 +106,7 @@ body[dir="rtl"] .freebirdFormviewerViewFeedbackSubmitFeedbackButton {
     padding: 34px 17px
 }
 .freebirdFormviewerViewFormContent>div {
-    padding: 17px 0px
+    padding: 0px 0px
 }
 .freebirdFormviewerViewFormContent>.freebirdFormviewerViewItemList {
     padding: 0
@@ -150,7 +150,6 @@ body[dir="rtl"] .freebirdFormviewerViewFeedbackSubmitFeedbackButton {
 }
 .freebirdFormviewerViewHeaderHeader {
     margin-bottom: 0px;
-    padding-bottom: 0px;
 }
 .freebirdFormviewerViewHeaderTitleRow {
     -webkit-box-align: center;
@@ -7396,6 +7395,7 @@ body[dir="ltr"] .freebirdFormeditorViewMediaLoadingMessage {
     box-pack: justify;
     -webkit-justify-content: space-between;
     justify-content: space-between;
+    margin-top: 8.5px;
 }
 @media (max-width: 660px) {
     .freebirdFormviewerViewNavigationProgress {
