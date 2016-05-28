@@ -88,7 +88,7 @@
         var submitURL = (baseURL + numberID + "=" + inputnumber + "&" + repsID + "=" + inputreps + submitRef);
         console.log(submitURL);
         $(this)[0].action=submitURL;
-        swal("Good Work!")
+        swal({   title: "Good Work!",   text: "Your reps have been recorded"}, function(){   location.reload(); });
     });
        </script>
    </body>
