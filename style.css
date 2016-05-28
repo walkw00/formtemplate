@@ -7395,7 +7395,7 @@ body[dir="ltr"] .freebirdFormeditorViewMediaLoadingMessage {
     box-pack: justify;
     -webkit-justify-content: space-between;
     justify-content: space-between;
-    margin-top: 8.5px;
+    margin-top: 1em;
 }
 @media (max-width: 660px) {
     .freebirdFormviewerViewNavigationProgress {
