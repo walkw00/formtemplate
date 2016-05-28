@@ -4,6 +4,8 @@
       <title>Wall Ball Reps</title>
        <meta charset="utf-8">
       <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="sweetalert.min.js"></script> 
+       <link rel="stylesheet" type="text/css" href="sweetalert.css"> 
    </head>
    <body class="freebirdLightBackground" data-is-prepopulate-mode="false">
        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -86,7 +88,7 @@
         var submitURL = (baseURL + numberID + "=" + inputnumber + "&" + repsID + "=" + inputreps + submitRef);
         console.log(submitURL);
         $(this)[0].action=submitURL;
-        alert('Good Work!');
+        swal("Good Work!")
     });
        </script>
    </body>
