@@ -76,7 +76,8 @@ body {
 
 }
 .freebirdFormviewerViewCenteredContent {
-    width: 100%
+    width: 100%;
+    min-height: 100%;
 }
 .freebirdFormviewerViewFormCard {
     background-color: #fff;
