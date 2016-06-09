@@ -18,11 +18,6 @@ form {
     background: 0 0
 }
 
-.freebirdFormviewerViewItemsDateDateInput input::-webkit-calendar-picker-indicator {
-    height: 6px;
-    width: 12px
-}
-
 .freebirdFormviewerViewItemsDateInput input::-ms-clear {
     display: none
 }
@@ -94,8 +89,9 @@ form {
 }
 .freebirdFormviewerViewFormContent {
     color: rgba(0, 0, 0, .87);
-    padding: 34px 17px;
-    height: 100vh;
+    padding: 2em 2em;
+    width: 75%;
+    height: 75%
 }
 .freebirdFormviewerViewHeaderHeader {
     margin-bottom: 0px;
@@ -124,16 +120,13 @@ form {
     height: 100%;
     width: 100%
 }
-.freebirdFormviewerViewItemsTextItemWrapper:first-child {
-    margin-top: 8px
-}
 .quantumWizTextinputPaperinputEl {
     -webkit-user-select: none;
     -webkit-tap-highlight-color: transparent;
     display: inline-block;
     outline: none;
-    padding-bottom: 20px;
-    width: 200px;
+    padding-bottom: 1em;
+    width: 100%;
 }
 .freebirdMaterialComponentsFilechipFileChipImage>* {
     height: 100%;
@@ -151,7 +144,7 @@ form {
     display: -webkit-flex;
     display: flex;
     position: relative;
-    top: 14px;
+    top: 1em;
     font-size: 2em;
 }
 input:placeholder-shown {
@@ -167,7 +160,7 @@ input:placeholder-shown {
     margin: 0;
     padding: 0;
     position: absolute;
-    width: 100%;
+    width: 60%;
     border-color: #e5e5e5;
     background-color: #e5e5e5;
 
@@ -186,18 +179,6 @@ input:placeholder-shown {
 }
 input, select, textarea{
     color: #bdbdbd;
-}
-.quantumWizTextinputPapertextareaFocusUnderline {
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    background-color: #bdbdbd;
-    bottom: 16px;
-    height: 2px;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    width: 100%
 }
 .freebirdFormviewerViewNavigationButtonsAndProgress {
     display: -webkit-box;
@@ -226,9 +207,8 @@ input, select, textarea{
     border-radius: 3px;
     cursor: pointer;
     display: inline-block;
-    font-size: 14px;
+    font-size: 1em;
     font-weight: 400;
-    min-width: 4em;
     outline: none;
     overflow: hidden;
     position: relative;
@@ -1244,16 +1224,6 @@ body.stop-scrolling {
     -o-transform: translateY(145%);
     transform: translateY(145%); } }
 }
-
-div {
-
-}
-
-.freebirdLightBackground {
-
-}
-
-
 
 #input-form {
     height: 100%;
