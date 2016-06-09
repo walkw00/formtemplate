@@ -89,9 +89,9 @@ form {
 }
 .freebirdFormviewerViewFormContent {
     color: rgba(0, 0, 0, .87);
-    padding: 2em 2em;
-    width: 75%;
-    height: 75%
+    padding: 1em 1em;
+    width: 90%;
+    height: 90%
 }
 .freebirdFormviewerViewHeaderHeader {
     margin-bottom: 0px;
