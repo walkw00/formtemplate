@@ -1,7 +1,8 @@
 body {
     background-color: #fff;
     font-family: 'Helvetica Neue', RobotoDraft, Helvetica, Arial, sans-serif;
-    margin: 0
+    margin: 0;
+    height: 100%
 }
 
 .freebirdFormviewerViewItemsDateDateInput input::-webkit-clear-button {
@@ -72,9 +73,10 @@ body {
     right: 0;
     left: 0;
     bottom: 0;
+
 }
 .freebirdFormviewerViewCenteredContent {
-    width: 640px
+    width: 100%
 }
 .freebirdFormviewerViewFormCard {
     background-color: #fff;
@@ -1230,4 +1232,12 @@ body.stop-scrolling {
     -moz-transform: translateY(145%);
     -o-transform: translateY(145%);
     transform: translateY(145%); } }
+}
+
+div {
+
+}
+
+.freebirdLightBackground {
+
 }
