@@ -162,7 +162,7 @@ input:placeholder-shown {
     bottom: -2px;
     height: 2px;
     left: 0;
-    margin: 2px;
+    margin-bottom: 5px;
     padding: 0;
     position: absolute;
     width: 80%;
