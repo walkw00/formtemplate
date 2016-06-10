@@ -116,7 +116,7 @@ form {
     -webkit-justify-content: space-between;
     justify-content: space-between;
     position: relative;
-    top: .8em
+    top: .5em
 
 
 }
@@ -130,7 +130,6 @@ form {
     -webkit-tap-highlight-color: transparent;
     display: inline-block;
     outline: none;
-    padding-bottom: .7em;
     width: 100%;
 }
 .freebirdMaterialComponentsFilechipFileChipImage>* {
@@ -150,7 +149,7 @@ form {
     display: flex;
     position: relative;
     top: 1em;
-    font-size: 30px;
+    font-size: 1.4em;
 }
 input:placeholder-shown {
     border: 0;
@@ -160,12 +159,12 @@ input:placeholder-shown {
 }
 .quantumWizTextinputPaperinputUnderline {
     bottom: -2px;
-    height: 1px;
+    height: 2px;
     left: 0;
     margin: 0;
     padding: 0;
     position: absolute;
-    width: 60%;
+    width: 80%;
     border-color: #e5e5e5;
     background-color: #e5e5e5;
 
@@ -184,7 +183,7 @@ input, select, textarea{
     box-pack: justify;
     -webkit-justify-content: space-between;
     justify-content: space-between;
-    margin-top: 2em;
+    margin-top: 1em;
 }
  .freebirdFormviewerViewNavigationButtons {
         -webkit-box-ordinal-group: 1;
@@ -212,15 +211,6 @@ input, select, textarea{
     background-color: #72b3c3;
     color: #FFF;
 }
-.quantumWizButtonPaperbuttonFocusOverlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: transparent;
-    border: 0
-}
 input:focus {
     outline: none;
     border: 0
@@ -228,11 +218,11 @@ input:focus {
 .quantumWizButtonPaperbuttonLabel {
     display: inline-block;
     margin: .5em;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 500;
 }
 input {
-    font-size: 30px;
+    font-size: 1em;
     border: 0
 }
 input[type=checkbox].css-checkbox {
@@ -240,8 +230,8 @@ input[type=checkbox].css-checkbox {
 						}
 
 						input[type=checkbox].css-checkbox + label.css-label {
-							padding-left:35px;
-							height:30px;
+							padding-left:37px;
+							height: 30px;
 							display:inline-block;
 							line-height:30px;
 							background-repeat:no-repeat;
@@ -267,10 +257,6 @@ input[type=checkbox].css-checkbox {
                 font-weight: 400;
                 color: #bdbdbd
 			}
-body.stop-scrolling {
-  height: 100%;
-  overflow: hidden; }
-
 .sweet-overlay {
   background-color: black;
   /* IE8 */
