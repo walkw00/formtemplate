@@ -22,3 +22,13 @@ $('#input-form').one('submit',function(){
 $(document).bind('touchmove', function(e) {
 	e.preventDefault();
 });
+(function($)
+{
+    $.fn.cancelZoom = function()
+    {
+        return this.each(cancelZoom);
+    };
+
+    // Usage:
+    $('input:text,select,textarea').cancelZoom();
+})
