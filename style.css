@@ -158,7 +158,7 @@ input:placeholder-shown {
    color: #bdbdbd;
 }
 .quantumWizTextinputPaperinputUnderline {
-    bottom: -2px;
+    bottom: -0.5px;
     height: 2px;
     left: 0;
     margin: 0;
