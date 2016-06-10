@@ -19,3 +19,6 @@ $('#input-form').one('submit',function(){
         $(this)[0].action=submitURL;
         swal({   title: "Good Work!",   text: "Your entry has been recorded"}, function(){   location.reload(); });
     });
+$(document).bind('touchmove', function(e) {
+	e.preventDefault();
+});
