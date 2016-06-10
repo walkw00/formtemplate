@@ -153,6 +153,7 @@ form {
 }
 input:placeholder-shown {
     border: 0;
+    vertical-align: text-bottom;
 }
 ::-webkit-input-placeholder {
    color: #bdbdbd;
