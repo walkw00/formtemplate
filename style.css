@@ -114,7 +114,10 @@ form {
     flex-wrap: wrap;
     box-pack: justify;
     -webkit-justify-content: space-between;
-    justify-content: space-between
+    justify-content: space-between;
+    position: absolute;
+    top: 1.5em
+
 }
 .freebirdMaterialComponentsFilechipFileChipImage>* {
     height: 100%;
