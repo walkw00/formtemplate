@@ -22,11 +22,8 @@ $('#input-form').one('submit',function(){
 $(document).bind('touchmove', function(e) {
 	e.preventDefault();
 });
-$.fn.focusWithoutScrolling = function(){
-  var x = window.scrollX, y = window.scrollY;
-  this.focus();
-  window.scrollTo(x, y);
-  return this; //chainability
+$("#input-team").onfocus = function () {
+        window.scrollTo(0, 0);
+        document.body.scrollTop = 0;
+    }
 
-};
-$('#input-team').focusWithoutScrolling();
