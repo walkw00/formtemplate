@@ -22,13 +22,11 @@ $('#input-form').one('submit',function(){
 $(document).bind('touchmove', function(e) {
 	e.preventDefault();
 });
-(function($)
-{
-    $.fn.cancelZoom = function()
-    {
-        return this.each(cancelZoom);
-    };
+$.fn.focusWithoutScrolling = function(){
+  var x = window.scrollX, y = window.scrollY;
+  this.focus();
+  window.scrollTo(x, y);
+  return this; //chainability
 
-    // Usage:
-    $('input:text,select,textarea').cancelZoom();
-})
+};
+$('#input-team').focusWithoutScrolling();
