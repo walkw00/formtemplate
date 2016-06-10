@@ -260,7 +260,7 @@ input:focus {
     font-weight: 500;
 }
 input {
-    font-size: 1em;
+    font-size: 30px;
     border: 0
 }
 input[type=checkbox].css-checkbox {
