@@ -275,14 +275,14 @@ input[type=checkbox].css-checkbox {
 .sweet-alert {
   background-color: white;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  width: 50%;
+  width: 83%;
   padding: 17px;
   border-radius: 5px;
   text-align: center;
   position: fixed;
   left: 50%;
   top: 50%;
-  margin-left: -27%;
+  margin-left: -45%;
   margin-top: -50px;
   overflow: hidden;
   display: none;
