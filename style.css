@@ -91,7 +91,7 @@ form {
     color: rgba(0, 0, 0, .87);
     padding: 1em 1em;
     width: 80%;
-    height: 90%
+    height: 100%
 }
 .freebirdFormviewerViewHeaderHeader {
     margin-bottom: 0px;
@@ -316,19 +316,19 @@ body.stop-scrolling {
 .sweet-alert {
   background-color: white;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  width: 478px;
+  width: 300px;
   padding: 17px;
   border-radius: 5px;
   text-align: center;
   position: fixed;
   left: 50%;
   top: 50%;
-  margin-left: -256px;
-  margin-top: -200px;
+  margin-left: -165px;
+  margin-top: -150px;
   overflow: hidden;
   display: none;
   z-index: 99999; }
-  @media all and (max-width: 540px) {
+  @media all and (max-width: 300px) {
     .sweet-alert {
       width: auto;
       margin-left: 0;
